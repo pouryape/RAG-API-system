@@ -1,0 +1,11 @@
+django
+djangorestframework
+python-dotenv
+langchain
+langchain-community
+langchain-openai
+sentence-transformers
+faiss-cpu
+python-docx
+pypdf
+numpy

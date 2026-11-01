@@ -1,0 +1,17 @@
+version: '3.9'
+
+services:
+  web:
+    build: .
+    ports:
+      - "8000:8000"
+    volumes:
+      - .:/app
+      - media_data:/app/media
+      - faiss_data:/app/faiss_index
+    env_file:
+      - .env
+
+volumes:
+  media_data:
+  faiss_data:
